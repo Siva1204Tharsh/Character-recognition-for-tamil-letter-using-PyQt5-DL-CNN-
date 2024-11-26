@@ -1,0 +1,9 @@
+# import OS module
+import os
+# Get the list of all files and directories
+path = "E:\Data-----Science\DS AI DL ML Project for 30 Days\Character recognition using PyQt5 GUI\Dataset\Train"
+dir_list = os.listdir(path)
+print("Files and directories in '", path, "' :")
+# prints all files
+print(dir_list)
+   
